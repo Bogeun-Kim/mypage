@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <!--구글 검색 엔진이 내 사이트를 가져갈 때 어떻게 최적화 시킬까?-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+    <!--강의자료 : https://teamsparta.notion.site/2023-eee0e4c33563484bbce59df71dae2835-->
+    <title>NewYear</title>
+    <style>
+        * {
+            font-family: 'Hahmlet', serif;
+        }
+
+        .title {
+            color: white;
+            background-color: tomato;
+            font-size: 24px;
+            padding: 4px 16px;
+            /*여백; 안쪽으로; 위 아래 양 옆에*/
+            border-radius: 8px;
+        }
+
+        .bg {
+            width: 360px;
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+        }
+
+        .msg {
+            font-weight: bold;
+        }
+
+        .bucket {
+            width: 160px;
+            height: 160px;
+        }
+
+        .img1 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    
+</head>
+<!--개발순서 팁 : 뼈대 -> 내용물 틀(img, div, class, id etc.) -> 한 번에 중앙정렬-->
+<body class="bg center"> <!--뼈대-->
+    <h1 class="title">2023 신년계획</h1>
+    <P class="msg">보여줄게 완전히 달라진 나!</P>
+    <div class="row flex-row wrap">
+        <div class="bucket img1 center ">독서일기 쓰기</div>
+        <div class="bucket img2 center">주 4회 운동하기</div>
+        <div class="bucket img2 center">S.P. 제작하기</div>
+        <div class="bucket img1 center">영어점수 올리기</div>
+        <div class="bucket img1 center">대외활동 1개 이상 하기</div>
+        <div class="bucket img2 center">21~22S P내용 복습하기</div>
+    </div>
+
+</body>
+
+</html>
